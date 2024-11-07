@@ -88,6 +88,7 @@ declare module 'vue' {
     IMdiAlert: typeof import('~icons/mdi/alert')['default']
     IMdiArrowDownThick: typeof import('~icons/mdi/arrow-down-thick')['default']
     IMdiArrowDownThin: typeof import('~icons/mdi/arrow-down-thin')['default']
+    IMdiArrowLeft: typeof import('~icons/mdi/arrow-left')['default']
     IMdiArrowRight: typeof import('~icons/mdi/arrow-right')['default']
     IMdiArrowRightBoldBoxOutline: typeof import('~icons/mdi/arrow-right-bold-box-outline')['default']
     IMdiArrowUpThin: typeof import('~icons/mdi/arrow-up-thin')['default']

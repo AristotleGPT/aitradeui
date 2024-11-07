@@ -100,8 +100,8 @@ watch(
   <header>
     <BNavbar toggleable="sm" dark variant="primary">
       <RouterLink class="navbar-brand" exact to="/">
-        <img class="logo" src="@/assets/freqtrade-logo.png" alt="Home Logo" />
-        <span class="navbar-brand-title d-sm-none d-md-inline">Freqtrade UI</span>
+        <img class="logo" src="@/assets/richmaster-logo.png" alt="Home Logo" />
+        <span class="navbar-brand-title d-sm-none d-md-inline">RichMaster</span>
       </RouterLink>
 
       <!-- TODO: For XS breakpoint, this should be here...  -->

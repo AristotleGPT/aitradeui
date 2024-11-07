@@ -196,7 +196,7 @@ defineExpose({
           id="username-input"
           v-model="auth.username"
           required
-          placeholder="Freqtrader"
+          placeholder="RichMaster"
           :state="nameState"
           @keydown.enter="handleOk"
         ></BFormInput>
