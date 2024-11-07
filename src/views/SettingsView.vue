@@ -28,7 +28,7 @@ const resetDynamicLayout = () => {
 
 <template>
   <div class="container mt-3">
-    <BCard header="FreqUI Settings">
+    <BCard header="RichMaster UI Settings">
       <div class="text-start d-flex flex-column gap-2">
         <p>UI Version: {{ settingsStore.uiVersion }}</p>
         <div class="d-flex flex-column border rounded p-2 mb-2 gap-2">

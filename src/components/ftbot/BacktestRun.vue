@@ -159,16 +159,16 @@ function clickBacktest() {
       <template v-if="botStore.activeBot.botApiVersion >= 2.22">
         <BFormGroup
           label-cols-sm="5"
-          label="Enable FreqAI:"
+          label="Enable RichMasterAI:"
           label-align-sm="right"
           label-for="enable-freqai"
           class="align-items-center"
         >
           <template #label>
             <div class="d-flex justify-content-center">
-              <span class="me-2">Enable FreqAI:</span>
+              <span class="me-2">Enable RichMasterAI:</span>
               <InfoBox
-                hint="Assumes freqAI configuration is setup in the configuration, and the strategy is a freqAI strategy. Will fail if that's not the case."
+                hint="Assumes RichMasterAI configuration is setup in the configuration, and the strategy is a RichMasterAI strategy. Will fail if that's not the case."
               />
             </div>
           </template>
@@ -177,7 +177,7 @@ function clickBacktest() {
         <BFormGroup
           v-if="btStore.freqAI.enabled"
           label-cols-sm="5"
-          label="FreqAI identifier:"
+          label="RichMasterAI identifier:"
           label-align-sm="right"
           label-for="freqai-identifier"
         >
@@ -190,7 +190,7 @@ function clickBacktest() {
         <BFormGroup
           v-if="btStore.freqAI.enabled"
           label-cols-sm="5"
-          label="FreqAI Model"
+          label="RichMasterAI Model"
           label-align-sm="right"
           label-for="freqai-model"
         >

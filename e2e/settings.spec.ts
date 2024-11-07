@@ -20,7 +20,7 @@ test.describe('Settings', () => {
       .isVisible()
       .then(() => page.locator('[id=avatar-drop]').click());
     await page.locator('.dropdown-menu > * > [href="/settings"]').click();
-    await expect(page.locator(':text("FreqUI Settings")')).toBeVisible();
+    await expect(page.locator(':text("RichMaster UI Settings")')).toBeVisible();
 
     // Switch option in the settings.
     await page.locator('select').first().selectOption('asTitle');

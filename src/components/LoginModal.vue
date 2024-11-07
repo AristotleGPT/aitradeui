@@ -35,7 +35,7 @@ defineExpose({
     <BModal
       id="modal-prevent-closing"
       v-model="loginViewOpen"
-      title="Login to your bot"
+      title="Login to RichMaster"
       @ok="handleOk"
     >
       <BotLogin

@@ -51,7 +51,7 @@ const resetDynamicLayout = (): void => {
   }
 };
 const setTitle = () => {
-  let title = 'freqUI';
+  let title = 'RichMaster AI';
   if (settingsStore.openTradesInTitle === OpenTradeVizOptions.asTitle) {
     title = `(${botStore.activeBotorUndefined?.openTradeCount}) ${title}`;
   }
@@ -113,7 +113,6 @@ watch(
           <BNavItem v-if="!botStore.canRunBacktest" to="/trade">Trade</BNavItem>
           <BNavItem v-if="!botStore.canRunBacktest" to="/dashboard">Dashboard</BNavItem>
           <BNavItem to="/graph">Chart</BNavItem>
-          <BNavItem to="/logs">Logs</BNavItem>
           <BNavItem v-if="botStore.canRunBacktest" to="/backtest">Backtest</BNavItem>
           <BNavItem
             v-if="

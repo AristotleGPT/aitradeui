@@ -119,9 +119,7 @@ const handleSubmit = async () => {
       errorMessage.value = 'Connected to bot, however Login failed, Username or Password wrong.';
     } else {
       urlState.value = false;
-      errorMessage.value = `Login failed.
-Please verify that the bot is running, the Bot API is enabled and the URL is reachable.
-You can verify this by navigating to ${auth.value.url}/api/v1/ping to make sure the bot API is reachable`;
+      errorMessage.value = `Login failed.`;
       if (auth.value.url !== window.location.origin) {
         errorMessageCORS.value = true;
       }

@@ -8,7 +8,7 @@ test.describe('Login', () => {
 
     await page.locator('li', { hasText: 'No bot selected' });
     await page.locator('button:has-text("Login")').click();
-    await page.locator('.modal-title:has-text("Login to your bot")');
+    await page.locator('.modal-title:has-text("Login to RichMaster")');
     // Test prefilled URL
     await expect(page.locator('input[id=url-input]').inputValue()).resolves.toBe(
       'http://localhost:3000',
