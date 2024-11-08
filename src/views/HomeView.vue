@@ -14,7 +14,7 @@
     <br />
     <div>Leverage the cutting-edge AI technologies to help you increase profit and reduce risk!</div>
     <br />
-    <p>Led by former department head of computer science, HKU and fintech experts</p>
+    <p>Led by a former Head of the Computer Science Department at HKU and leading fintech experts</p>
   </div>
 </template>
 
