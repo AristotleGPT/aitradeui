@@ -12,7 +12,7 @@
       <h1>RichMaster - Home for AI driven investment</h1>
     </div>
     <br />
-    <div>Leverage the cutting-edge AI technologies to help you increase profit and reduce risk!</div>
+    <div>Leverage cutting-edge AI technologies to boost profits and minimize risks!</div>
     <br />
     <p>Led by a former Head of the Computer Science Department at HKU and leading fintech experts</p>
   </div>
